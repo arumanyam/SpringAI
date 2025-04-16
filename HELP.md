@@ -4,17 +4,17 @@
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/3.4.4/maven-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.4.4/maven-plugin/build-image.html)
-* [Spring Web](https://docs.spring.io/spring-boot/3.4.4/reference/web/servlet.html)
-* [Ollama](https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/3.4.5-SNAPSHOT/maven-plugin)
+* [Create an OCI image](https://docs.spring.io/spring-boot/3.4.5-SNAPSHOT/maven-plugin/build-image.html)
+* [Spring Web Services](https://docs.spring.io/spring-boot/3.4.5-SNAPSHOT/reference/io/webservices.html)
+* [OpenAI](https://docs.spring.io/spring-ai/reference/api/chat/openai-chat.html)
+* [Spring Reactive Web](https://docs.spring.io/spring-boot/3.4.5-SNAPSHOT/reference/web/reactive.html)
 
 ### Guides
 The following guides illustrate how to use some features concretely:
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+* [Producing a SOAP web service](https://spring.io/guides/gs/producing-web-service/)
+* [Building a Reactive RESTful Web Service](https://spring.io/guides/gs/reactive-rest-service/)
 
 ### Maven Parent overrides
 
