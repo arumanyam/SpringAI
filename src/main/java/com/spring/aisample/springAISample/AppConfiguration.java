@@ -13,22 +13,6 @@ import org.springframework.ai.openai.audio.speech.*;
 public class AppConfiguration {
 
 
-
-  /*  @Bean
-    SpeechClient speechClient(@Value("${spring.ai.openai.api-key}") String apiKey) {
-        return new OpenAiAudioSpeechClient(new OpenAiAudioApi(apiKey));
-    }*/
-
-  /*  @Bean
-    ImageClient imageClient(@Value("${spring.ai.openai.api-key}") String apiKey) {
-        return new OpenAiImageClient(new OpenAiImageApi(apiKey));
-    }*/
-
-   /* @Bean
-    ChatClient chatClient(@Value("${spring.ai.openai.api-key}") String apiKey) {
-        return new OpenAiChatClient(new OpenAiApi(apiKey));
-    }*/
-
     @Bean
     ChatClient chatClient(ChatClient.Builder builder) {
         return builder.defaultSystem("You are a friendly chat bot that answers question in the voice of a Pirate")

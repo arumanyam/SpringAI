@@ -14,16 +14,6 @@ public class OpenAiChatController {
 
     private final ChatClient chatClient;
 
-   /* @Autowired
-    public OpenAiChatController(ChatClient chatClient) {
-        this.chatClient = chatClient;
-    }*/
-
-  //  @GetMapping("/joke-service/simple".call;
-   // }
-
-
-
     public OpenAiChatController(ChatClient.Builder chatClientBuilder) {
         this.chatClient = chatClientBuilder.build();
     }
